@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-20260627-JGFW",
+  "genesis_version": "Phase 8.4",
+  "git_commit": "N/A",
+  "date": "2026-06-27 09:33:24",
+  "ticks": 1000,
+  "scarcity": 1.0,
+  "level": "Level 1 (Verification)",
+  "ablations": {
+    "planner": true,
+    "emotion": true,
+    "relationships": true,
+    "memory_importance": true,
+    "motivation": true,
+    "prediction_error": true
+  },
+  "name": "Ablation sweep: none under Level 1 (Verification)"
+}

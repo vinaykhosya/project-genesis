@@ -1,0 +1,37 @@
+[
+  {
+    "tick": 200,
+    "type": "Emergence: Colony Split",
+    "details": "Colony split detected: shelters are highly dispersed across the land (Max distance: 728.7 cells)"
+  },
+  {
+    "tick": 815,
+    "type": "Emergence: Permanent Settlement",
+    "details": "Agent 0 established a durable permanent shelter (Level 2)"
+  },
+  {
+    "tick": 184,
+    "type": "Emergence: Permanent Settlement",
+    "details": "Agent 2 established a durable permanent shelter (Level 2)"
+  },
+  {
+    "tick": 200,
+    "type": "Emergence: Colony Split",
+    "details": "Colony split detected: shelters are highly dispersed across the land (Max distance: 548.8 cells)"
+  },
+  {
+    "tick": 200,
+    "type": "Emergence: Colony Split",
+    "details": "Colony split detected: shelters are highly dispersed across the land (Max distance: 517.8 cells)"
+  },
+  {
+    "tick": 600,
+    "type": "Anomaly",
+    "details": "Population crash detected: dropped 47.4% (from 19 to 10)"
+  },
+  {
+    "tick": 900,
+    "type": "Anomaly",
+    "details": "Population crash detected: dropped 66.7% (from 6 to 2)"
+  }
+]

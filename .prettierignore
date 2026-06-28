@@ -1,0 +1,11 @@
+# Ignore generated simulation data files in Prettier
+simulation_data.js
+live_state.js
+epoch_stats.js
+run_history.js
+simulation_data.json
+live_state.json
+epoch_stats.json
+run_history.json
+*.tmp
+*.log

@@ -1,0 +1,199 @@
+{
+  "seed": 1020,
+  "ticks_completed": 1000,
+  "survivors": 4,
+  "total_population": 19,
+  "average_lifespan": 759.6,
+  "max_lifespan": 1000,
+  "genetic_evolution": {
+    "Gen 0": {
+      "count": 16,
+      "curiosity": 0.485,
+      "risk_sensitivity": 0.52,
+      "learning_rate": 0.51,
+      "aggression": 0.596,
+      "sharing": 0.49
+    },
+    "Gen 1": {
+      "count": 3,
+      "curiosity": 0.642,
+      "risk_sensitivity": 0.515,
+      "learning_rate": 0.62,
+      "aggression": 0.703,
+      "sharing": 0.424
+    }
+  },
+  "network_centralities": {
+    "network_density": 0.0,
+    "average_trust": 0.0,
+    "average_attachment": 0.0,
+    "network_centralization": 0.0,
+    "connected_components": 4
+  },
+  "correlations": {
+    "pearson": {
+      "longevity": {
+        "longevity": 1.0,
+        "curiosity": -0.281,
+        "aggression": -0.163,
+        "avg_fear": -0.288,
+        "avg_frustration": 0.402,
+        "discoveries": 0.315,
+        "shelter_level": -0.071,
+        "shares": 0.0
+      },
+      "curiosity": {
+        "longevity": -0.281,
+        "curiosity": 1.0,
+        "aggression": 0.025,
+        "avg_fear": 0.298,
+        "avg_frustration": 0.165,
+        "discoveries": 0.245,
+        "shelter_level": -0.024,
+        "shares": 0.0
+      },
+      "aggression": {
+        "longevity": -0.163,
+        "curiosity": 0.025,
+        "aggression": 1.0,
+        "avg_fear": 0.122,
+        "avg_frustration": -0.194,
+        "discoveries": 0.124,
+        "shelter_level": 0.008,
+        "shares": 0.0
+      },
+      "avg_fear": {
+        "longevity": -0.288,
+        "curiosity": 0.298,
+        "aggression": 0.122,
+        "avg_fear": 1.0,
+        "avg_frustration": 0.302,
+        "discoveries": -0.372,
+        "shelter_level": -0.211,
+        "shares": 0.0
+      },
+      "avg_frustration": {
+        "longevity": 0.402,
+        "curiosity": 0.165,
+        "aggression": -0.194,
+        "avg_fear": 0.302,
+        "avg_frustration": 1.0,
+        "discoveries": 0.114,
+        "shelter_level": 0.038,
+        "shares": 0.0
+      },
+      "discoveries": {
+        "longevity": 0.315,
+        "curiosity": 0.245,
+        "aggression": 0.124,
+        "avg_fear": -0.372,
+        "avg_frustration": 0.114,
+        "discoveries": 1.0,
+        "shelter_level": 0.586,
+        "shares": 0.0
+      },
+      "shelter_level": {
+        "longevity": -0.071,
+        "curiosity": -0.024,
+        "aggression": 0.008,
+        "avg_fear": -0.211,
+        "avg_frustration": 0.038,
+        "discoveries": 0.586,
+        "shelter_level": 1.0,
+        "shares": 0.0
+      },
+      "shares": {
+        "longevity": 0.0,
+        "curiosity": 0.0,
+        "aggression": 0.0,
+        "avg_fear": 0.0,
+        "avg_frustration": 0.0,
+        "discoveries": 0.0,
+        "shelter_level": 0.0,
+        "shares": 0.0
+      }
+    },
+    "spearman": {
+      "longevity": {
+        "longevity": 1.0,
+        "curiosity": -0.217,
+        "aggression": -0.041,
+        "avg_fear": -0.169,
+        "avg_frustration": 0.433,
+        "discoveries": 0.51,
+        "shelter_level": -0.094,
+        "shares": 0.0
+      },
+      "curiosity": {
+        "longevity": -0.217,
+        "curiosity": 1.0,
+        "aggression": 0.033,
+        "avg_fear": 0.261,
+        "avg_frustration": 0.288,
+        "discoveries": 0.058,
+        "shelter_level": -0.031,
+        "shares": 0.0
+      },
+      "aggression": {
+        "longevity": -0.041,
+        "curiosity": 0.033,
+        "aggression": 1.0,
+        "avg_fear": 0.084,
+        "avg_frustration": 0.034,
+        "discoveries": -0.018,
+        "shelter_level": 0.0,
+        "shares": 0.0
+      },
+      "avg_fear": {
+        "longevity": -0.169,
+        "curiosity": 0.261,
+        "aggression": 0.084,
+        "avg_fear": 1.0,
+        "avg_frustration": 0.201,
+        "discoveries": -0.744,
+        "shelter_level": -0.313,
+        "shares": 0.0
+      },
+      "avg_frustration": {
+        "longevity": 0.433,
+        "curiosity": 0.288,
+        "aggression": 0.034,
+        "avg_fear": 0.201,
+        "avg_frustration": 1.0,
+        "discoveries": 0.136,
+        "shelter_level": 0.017,
+        "shares": 0.0
+      },
+      "discoveries": {
+        "longevity": 0.51,
+        "curiosity": 0.058,
+        "aggression": -0.018,
+        "avg_fear": -0.744,
+        "avg_frustration": 0.136,
+        "discoveries": 1.0,
+        "shelter_level": 0.41,
+        "shares": 0.0
+      },
+      "shelter_level": {
+        "longevity": -0.094,
+        "curiosity": -0.031,
+        "aggression": 0.0,
+        "avg_fear": -0.313,
+        "avg_frustration": 0.017,
+        "discoveries": 0.41,
+        "shelter_level": 1.0,
+        "shares": 0.0
+      },
+      "shares": {
+        "longevity": 0.0,
+        "curiosity": 0.0,
+        "aggression": 0.0,
+        "avg_fear": 0.0,
+        "avg_frustration": 0.0,
+        "discoveries": 0.0,
+        "shelter_level": 0.0,
+        "shares": 0.0
+      }
+    }
+  }
+}

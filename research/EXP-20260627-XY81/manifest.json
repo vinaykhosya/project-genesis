@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-20260627-XY81",
+  "genesis_version": "Phase 8.4",
+  "git_commit": "N/A",
+  "date": "2026-06-27 09:39:23",
+  "ticks": 1000,
+  "scarcity": 1.0,
+  "level": "Level 1 (Verification)",
+  "ablations": {
+    "planner": false,
+    "emotion": false,
+    "relationships": false,
+    "memory_importance": false,
+    "motivation": false,
+    "prediction_error": false
+  },
+  "name": "Ablation sweep: all under Level 1 (Verification)"
+}

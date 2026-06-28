@@ -1,0 +1,49 @@
+# Git ignore for Project Genesis
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Simulation Generated Data
+simulation_data.js
+live_state.js
+epoch_stats.js
+run_history.js
+simulation_data.json
+live_state.json
+epoch_stats.json
+run_history.json
+*.tmp
+*.log
+simulation.png
+elevation.png
+biomes.png
+habitability.png
+rainfall.png
+rivers.png
+temperature.png
+trade.png
+
+# IDE & OS
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.agents/
+.antigravity/
+
+# Ignore experiment outputs and checkpoints
+experiments/
+*.csv
+*.png

@@ -1,0 +1,26 @@
+{
+  "seed": 1729,
+  "ticks": 10000,
+  "scarcity": 0.2,
+  "experiment_name": "test_desert",
+  "agents": [
+    {
+      "archetype": "Explorer",
+      "curiosity": 1.0,
+      "risk_tolerance": 0.9,
+      "count": 2
+    },
+    {
+      "archetype": "Settler",
+      "curiosity": 0.1,
+      "risk_tolerance": 0.1,
+      "count": 2
+    },
+    {
+      "archetype": "Balanced",
+      "curiosity": 0.5,
+      "risk_tolerance": 0.5,
+      "count": 2
+    }
+  ]
+}

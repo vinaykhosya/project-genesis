@@ -1,0 +1,93 @@
+[
+  {
+    "tick": 1,
+    "year": 0,
+    "alive": 16,
+    "gene_means": [
+      0.5633446574211121,
+      0.4660392999649048,
+      0.5343698859214783,
+      0.6108357906341553,
+      0.4744502902030945,
+      0.4882713854312897,
+      0.4595552980899811,
+      0.47166118025779724,
+      0.49650150537490845,
+      0.49626845121383667,
+      0.4712066352367401,
+      0.37477046251296997,
+      0.4771059453487396,
+      0.43230557441711426
+    ],
+    "gene_vars": [
+      0.08196042478084564,
+      0.08162012696266174,
+      0.04865509644150734,
+      0.11007868498563766,
+      0.0717584565281868,
+      0.12135331332683563,
+      0.08439545333385468,
+      0.070395328104496,
+      0.049706846475601196,
+      0.07679660618305206,
+      0.06889043003320694,
+      0.058956362307071686,
+      0.08704257011413574,
+      0.09812065213918686
+    ],
+    "avg_drives": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.11356689196219724,
+      0.02271337839243946,
+      0.0,
+      0.97365248106477,
+      0.5785131440407523,
+      0.02271337839243946
+    ],
+    "avg_motivations": [
+      0.4712066128849983,
+      0.483964785002172,
+      0.45955530245555565,
+      0.43230554641922936,
+      0.46603926829993725,
+      0.49650148395448923
+    ],
+    "avg_trust": 0.0,
+    "avg_attachment": 0.0,
+    "top_lineages": [
+      {
+        "founder_id": 0,
+        "living_count": 1
+      },
+      {
+        "founder_id": 1,
+        "living_count": 1
+      },
+      {
+        "founder_id": 2,
+        "living_count": 1
+      },
+      {
+        "founder_id": 3,
+        "living_count": 1
+      },
+      {
+        "founder_id": 4,
+        "living_count": 1
+      }
+    ],
+    "extinct_count": 0,
+    "insights": [
+      {
+        "category": "Cognitive Evolution",
+        "finding": "Civilization has achieved high prediction accuracy.",
+        "evidence": "Living population averaged 100.0% successful spatial resource predictions.",
+        "reason": "Neural predictor networks have successfully calibrated against the local environment. Agents are anticipating resources rather than reacting blindly.",
+        "confidence": 0.9
+      }
+    ]
+  }
+]

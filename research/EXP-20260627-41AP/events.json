@@ -1,0 +1,1906 @@
+[
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 0,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.021,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [
+      {
+        "elapsed_ticks": 5,
+        "action": "Sheltering",
+        "fear": 0.297,
+        "frustration": 0.0,
+        "hunger_tension": 0.001
+      }
+    ],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 1,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.021,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [
+      {
+        "elapsed_ticks": 5,
+        "action": "Sheltering",
+        "fear": 0.297,
+        "frustration": 0.0,
+        "hunger_tension": 0.001
+      }
+    ],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 2,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.021,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [
+      {
+        "elapsed_ticks": 5,
+        "action": "Sheltering",
+        "fear": 0.297,
+        "frustration": 0.0,
+        "hunger_tension": 0.001
+      }
+    ],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 3,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.021,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [
+      {
+        "elapsed_ticks": 5,
+        "action": "Sheltering",
+        "fear": 0.297,
+        "frustration": 0.0,
+        "hunger_tension": 0.002
+      }
+    ],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 0,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.368,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 1,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.368,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 2,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.368,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 3,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.368,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 0,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.439,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 1,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.439,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 2,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.439,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 3,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.439,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 0,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.51,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 1,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.51,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 2,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.51,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 3,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.51,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 0,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.581,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 1,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.581,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 2,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.581,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 3,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.581,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.006
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.006,
+      "thirst_tension": 0.006
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 3
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 4,
+    "pre_drives": {
+      "fear": 0.237,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 12,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 13,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 14,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 15,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 4
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 1,
+    "pre_drives": {
+      "fear": 0.03,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.0,
+      "thirst_tension": 0.0
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.001,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 5,
+    "pre_drives": {
+      "fear": 0.329,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.001
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 5
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 6,
+    "pre_drives": {
+      "fear": 0.427,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.002,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 6
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.002
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 7,
+    "pre_drives": {
+      "fear": 0.529,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 7
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.003,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 8,
+    "pre_drives": {
+      "fear": 0.632,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 8
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.006,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.004,
+      "thirst_tension": 0.003
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 9,
+    "pre_drives": {
+      "fear": 0.735,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 9
+  },
+  {
+    "agent_id": 8,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.006,
+      "thirst_tension": 0.006
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 9,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.006,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 10,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.005,
+      "thirst_tension": 0.004
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  },
+  {
+    "agent_id": 11,
+    "trigger": "Storm / Freezing Temp",
+    "start_tick": 10,
+    "pre_drives": {
+      "fear": 0.837,
+      "frustration": 0.0,
+      "boredom": 0.0,
+      "longing": 0.0,
+      "grief": 0.0,
+      "hunger_tension": 0.006,
+      "thirst_tension": 0.005
+    },
+    "snapshots": [],
+    "completed": true,
+    "outcome": "Sheltered successfully (Level 1)",
+    "end_tick": 10
+  }
+]

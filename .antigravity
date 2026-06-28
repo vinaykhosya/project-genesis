@@ -1,0 +1,75 @@
+# Project Genesis - Architectural Rules & Plan (.antigravity)
+
+This file documents the core development principles, system rules, and roadmaps established for the Project Genesis simulation engine.
+
+---
+
+## 1. Core Principles
+
+1.  **World First, People Second, Civilization Third, History Fourth**: The simulation must evolve in this hierarchy. Do not create agents or systems until the physical foundation is robust.
+2.  **Simulation & Causal Explanation**: The engine must not only simulate a world, but also explain *why* coordinates have their properties (e.g. rain shadow deserts, river mouths, mountain passes, harbor sites) through code-level geographical query inspection.
+3.  **Modular Layered Architecture**: All pipeline passes (terrain, climate, hydrology, resources, habitability, passability) must accept, modify, and return a single central `WorldState` object.
+
+---
+
+## 2. Technical Implementation Rules
+
+1.  **Grid Performance**: Store all maps (elevation, biomes, resources, etc.) as flat 2D NumPy arrays rather than grids of Python objects, ensuring $O(1)$ vectorized arithmetic.
+2.  **Resolution Independence**: All climate advection rates, evaporation rates, and step sizes must scale dynamically with map resolution (clamped to `C / w` where `w` is width). The world must generate identical biome distributions whether built at $128 \times 128$ or $2048 \times 2048$.
+3.  **Flat Sea Level Wind Advection**: Prevailing wind moisture advection must clamp elevations to `sea_level` over water. The wind blows on a flat sea surface; underwater floor slopes must not trigger precipitation or drain wind moisture.
+4.  **Land Evapotranspiration**: Model a background land-based moisture recycling step (transpiration) so that moisture can travel across wide continents rather than drying out immediately at the coasts.
+5.  **Priority-Flood Hydrology**: Sinks and pits must be filled using a heap-based Priority Flood algorithm to ensure continuous drainage routing and natural lake spawning.
+6.  **Resource Clustering (Belts)**: Terrestrial minerals (Iron, Copper) must be clustered into exclusive regional belts using low-frequency noise masks on mountainous regions, rather than random noise. This creates natural geopolitical conflict and trading incentives. Gold must be excluded until trade systems are introduced.
+7.  **Segmented Habitability**: Habitability must be split into separate layers (`water_score`, `food_score`, `resource_score`, `climate_score`, `terrain_score`) so different future agent cultures can assign distinct weights to them.
+8.  **Non-Maximum Suppression (NMS)**: The settlement predictor must utilize NMS with a circular exclusion mask to ensure predicted coordinates are logically spread across the map.
+
+---
+
+## 3. Current Project Structure
+
+```text
+project-genesis/
+├── .agents/
+│   └── AGENTS.md          # Gemini Antigravity IDE custom rules
+├── .antigravity            # This plan and rule document
+├── main.py                # Pipeline coordinator CLI and coordinate query loop
+├── tests/
+│   └── test_world.py      # Vectorized verification tests
+└── world/
+    ├── __init__.py
+    ├── biomes.py          # Whittaker biome lookup and coloring
+    ├── climate.py         # Latitude cooling & wind moisture advection
+    ├── erosion.py         # Vectorized thermal soil creep erosion
+    ├── explainer.py       # Geographical explainer query logic
+    ├── generator.py       # Orchestration pipeline
+    ├── hydrology.py       # Priority-flood sink filling and river/lake routing
+    ├── noise.py           # Pure-NumPy Perlin/fBm noise fallback
+    ├── passability.py     # Traversal costs and trade potential
+    ├── predictor.py       # NMS settlement prediction locator
+    ├── resources.py       # Wood, stone, metals, wildlife spawning
+    └── state.py           # WorldState structure and biome enums
+```
+
+---
+
+## 4. Roadmap
+
+### Phase 1.0 & 1.5 — World Engine (Completed)
+- [x] Vectorized 2D Perlin / fBm noise
+- [x] Thermal erosion
+- [x] Resolution-invariant wind moisture advection climate
+- [x] Whittaker Biomes (Ocean, Glacier, Tundra, Taiga, Forest, Grassland, Desert, Lake)
+- [x] Heap-based Priority Flood sink filling
+- [x] River networks & lake spawning
+- [x] Clustered Iron and Copper belts (no gold)
+- [x] Proximity Euclidean transforms for water access
+- [x] Segmented habitability sub-scores
+- [x] Movement costs (biome + slope) & trade potential (coasts, rivers, resources)
+- [x] NMS settlement predictor sanity checker
+- [x] Interactive geographical explainer queries
+
+### Phase 2.0 — Agent & Movement Engine (Next)
+- [ ] Implement the first 16 humans (2 groups of 8) in a desert biome with resource scarcity.
+- [ ] Simple survival ticks: health, hunger, thirst, energy.
+- [ ] Observe-Evaluate-Choose-Act loop.
+- [ ] Actions: Move, Eat, Drink, Sleep, Gather.
