@@ -3,8 +3,8 @@
 </div>
 
 <p align="center">
-  <a href="https://portal-navy-five-30.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Simulation%20Portal-portal--navy--five--30.vercel.app-38BDF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portal" />
+  <a href="https://genesis.vinaykhosya.com" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Simulation%20Portal-genesis.vinaykhosya.com-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portal" />
   </a>
   <a href="https://vinaykhosya.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-vinaykhosya.com-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
@@ -26,7 +26,7 @@ Designed as an experimental research platform, Genesis allows researchers to inv
 ## Interactive Visualizer & Live Telemetry
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vinaykhosya/project-genesis/main/assets/simulation_preview.jpg" alt="Simulation Preview" width="95%" />
+  <img src="./assets/simulation_preview.jpg" alt="Simulation Preview" width="95%" />
   <p><i>Live telemetry dashboard: Spatial biomass heatmaps, phylogenetic trees, population growth curves, and real-time behavioral clustering.</i></p>
 </div>
 
@@ -37,7 +37,7 @@ Designed as an experimental research platform, Genesis allows researchers to inv
 The simulation engine follows a multi-tiered pipeline mapping genetic genotypes to neural controllers, sensory inputs, spatial physics, and survival feedback loops:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vinaykhosya/project-genesis/main/assets/architecture_diagram.jpg" alt="Architecture Diagram" width="95%" />
+  <img src="./assets/architecture_diagram.jpg" alt="Architecture Diagram" width="95%" />
 </div>
 
 ### Core Subsystems:
@@ -78,7 +78,7 @@ python run.py --visualize
 ## Live Web Portal
 
 Explore the web-based telemetry visualizer and civilization replay system at:  
-👉 **[https://portal-navy-five-30.vercel.app](https://portal-navy-five-30.vercel.app)**
+👉 **[https://genesis.vinaykhosya.com](https://genesis.vinaykhosya.com)**
 
 ---
 
