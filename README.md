@@ -1,72 +1,88 @@
-# Project Genesis: An Agentic Artificial Life & Evolutionary Biology Simulator
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,26,45,67&height=220&section=header&text=Project%20Genesis&fontSize=42&fontColor=ffffff&animation=fadeIn&subtext=Agentic%20Artificial%20Life%20%26%20Evolutionary%20Biology%20Simulator&subfontSize=16&subfontColor=94A3B8" width="100%"/>
+</div>
 
-Project Genesis is a high-resolution simulation of artificial life, ecology, and natural selection. It models the survival, cognition, genetics, and emergent behavior of autonomous agents navigating a dynamic world.
-
----
-
-## 🔬 Core System Architecture
-
-The simulation is built as a layered pipeline that mirrors real-world biological and ecological structures:
-
-```
-Genetics (14-gene genotype to brain parameters)
-   ↓
-Physiology (Fat reserves, muscle mass, health)
-   ↓
-Innate Reflexes (Combat safe-zones, threat display, pain responses)
-   ↓
-Emotion & Hormones (Fear levels, stress cooldowns)
-   ↓
-Motivational Drives (Hunger, thirst, comfort, safety)
-   ↓
-Cognitive Planner (Sigmoid utility selector & neural prediction)
-   ↓
-Motor Actions (Pathfinding, resource extraction, sheltering)
-   ↓
-Episodic Memory (Spatial mapping, relationship trust, win/loss history)
-```
+<p align="center">
+  <a href="https://portal-navy-five-30.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Simulation%20Portal-portal--navy--five--30.vercel.app-38BDF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portal" />
+  </a>
+  <a href="https://vinaykhosya.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-vinaykhosya.com-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/Architecture-Multi--Agent%20A--Life-8B5CF6?style=for-the-badge" alt="Architecture" />
+</p>
 
 ---
 
-## 🌍 Key Subsystems & Features
+## Overview
 
-### 1. Unified State Container (`world/state.py`)
-All simulation stages receive, mutate, and return a single, centralized `WorldState` object. To ensure maximum vectorization performance, all grids are stored as 2D NumPy arrays (`float32` or `int32`).
+**Project Genesis** is a high-resolution simulation engine of artificial life, ecology, natural selection, and emergent cognitive behavior. It models the survival, decision-making, genetic trait expression, resource competition, and evolutionary dynamics of autonomous agents operating within a resource-constrained, dynamic environment.
 
-### 2. Whittaker Biome Matrix (`world/biomes.py`)
-Dynamic continental temperature and rainfall maps translate to 9 distinct biomes via a resolution-independent Whittaker mapping:
-* `OCEAN` (0) | `GLACIER` (1) | `TUNDRA` (2) | `TAIGA` (3) | `TEMPERATE_FOREST` (4) | `GRASSLAND` (5) | `DESERT` (6) | `RAINFOREST` (7) | `LAKE` (8)
-
-### 3. Physical Hydrology & Climate
-* **Resolution Independence**: Environmental rates scale dynamically with grid size to ensure map preset invariance.
-* **Wind Advection Clamping**: Winds blow across flat water; height maps are clamped to sea level (`0.3`) for advection calculations.
-* **Land Transpiration**: Moisture recyclers prevent dry continental centers.
-* **Priority-Flood Hydrology**: Heap-queue Priority-Flood resolves sinks to trace realistic river drainage basins.
-* **Mountainous Resource Belets**: Terrestrial mineral clusters (Iron, Copper) are generated using low-frequency noise masks on mountainous regions.
-
-### 4. Innate Reflexes & Combat Layer v2 (`world/agents/decision.py`)
-We hardcode biological primitives, while allowing strategies and thresholds to evolve via genetics:
-* **Home-Radius Safe Zones**: Agents claim home coordinates with a genome-derived radius (`15 + aggression_mult * 10`). Territorial disputes are suppressed if either agent is inside their nesting grounds.
-* **Threat Display Stage**: Fights enter a non-damaging warning phase. Agents exchange injury damage only if both hold their ground. If one backs down, they suffer a fear/stress spike instead.
-* **Confidence-Based Retreat**: Relative strength components are calculated based on health, injury, and genetic aggression:
-  $$\text{confidence} = \frac{\text{my strength}}{\text{my strength} + \text{their strength}}$$
-  Agents retreat if confidence falls below their risk tolerance threshold.
-* **Winner/Loser Memory**: Fights are registered as winning/losing outcomes in episodic memory, influencing future interaction confidence.
-* **Fear Cooldown**: Deferring immediate re-engagement using a stress cooldown timer proportional to injury level.
+Designed as an experimental research platform, Genesis allows researchers to investigate evolutionary pressure, neural adaptation, metabolic trade-offs, and self-organizing social structures across millions of simulation cycles.
 
 ---
 
-## 📈 Running the Simulation
+## Interactive Visualizer & Live Telemetry
 
-Initialize the standard validation suite:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vinaykhosya/project-genesis/main/assets/simulation_preview.jpg" alt="Simulation Preview" width="95%" />
+  <p><i>Live telemetry dashboard: Spatial biomass heatmaps, phylogenetic trees, population growth curves, and real-time behavioral clustering.</i></p>
+</div>
+
+---
+
+## Research Architecture
+
+The simulation engine follows a multi-tiered pipeline mapping genetic genotypes to neural controllers, sensory inputs, spatial physics, and survival feedback loops:
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vinaykhosya/project-genesis/main/assets/architecture_diagram.jpg" alt="Architecture Diagram" width="95%" />
+</div>
+
+### Core Subsystems:
+1. **Genotype Chromosome Mapping**: Multi-gene parameterization encoding sensory radii, metabolic baselines, velocity limits, mutation rates, and neural topology.
+2. **Neural Perception Layer**: Multi-modal sensory array processing visual proximity (food/predator rays), auditory pheromone signals, biomass gradients, and energy telemetry.
+3. **Spatial Physics Engine**: Continuous 2D/3D toroidal grid modeling biomass dispersion, obstacle collision, inertial mechanics, and dynamic climate shifts.
+4. **Natural Selection & Evolution**: Energy-gated reproduction, crossover, sexual selection, and stochastic point mutations driving macro-evolutionary speciation.
+
+---
+
+## Research Publications & Technical Reports
+
+- **Monograph**: *The Genesis Simulation: Cognitive Emergence and Evolutionary Dynamics in High-Density Agentic Populations*
+- **Empirical Report**: *Emergence of Cooperative Swarming and Scarcity Strategies in 3.26M Cycle Multi-Agent Ecosystems*
+- **Architecture Spec**: *High-Throughput Discrete Event Simulation for A-Life Systems*
+
+---
+
+## Quickstart
+
 ```bash
-python run_test.py
+# Clone the repository
+git clone https://github.com/vinaykhosya/project-genesis.git
+cd project-genesis
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run standard simulation run
+python main.py --config configs/standard_evolution.json
+
+# Launch interactive visualizer
+python run.py --visualize
 ```
 
-### Configuration Panel (`run_test.py`)
-You can tweak map seeds, scarcity, disputes, and climate epoch modes directly from the top panel inside `run_test.py`.
+---
 
-### Interactive Dashboard
-To view real-time population heatmaps, lineage trees, and genetic distributions:
-1. Run the simulation.
-2. Open `visualizer.html` in your browser.
+## Live Web Portal
+
+Explore the web-based telemetry visualizer and civilization replay system at:  
+👉 **[https://portal-navy-five-30.vercel.app](https://portal-navy-five-30.vercel.app)**
+
+---
+
+<div align="center">
+  <p>Engineered by <a href="https://vinaykhosya.com"><b>Vinay Khosya</b></a></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,14,26,45,67&height=100&section=footer" width="100%"/>
+</div>
