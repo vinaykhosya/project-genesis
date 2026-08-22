@@ -19,32 +19,23 @@
 
 **Project Genesis** is a high-resolution simulation engine of artificial life, ecology, natural selection, and emergent cognitive behavior. It models the survival, decision-making, genetic trait expression, resource competition, and evolutionary dynamics of autonomous agents operating within a resource-constrained, dynamic environment.
 
-Designed as an experimental research platform, Genesis allows researchers to investigate evolutionary pressure, neural adaptation, metabolic trade-offs, and self-organizing social structures across millions of simulation cycles.
+Designed as an experimental research platform, Genesis enables the study of evolutionary pressure, neural adaptation, metabolic trade-offs, and self-organizing social structures across millions of simulation cycles.
 
 ---
 
-## Interactive Visualizer & Live Telemetry
+## Live Research Portal & Experiment Archive
+
+Real experiments, phylogenetic trees, and telemetry captured from the deployed Genesis platform:
 
 <div align="center">
-  <img src="./assets/simulation_preview.jpg" alt="Simulation Preview" width="95%" />
-  <p><i>Live telemetry dashboard: Spatial biomass heatmaps, phylogenetic trees, population growth curves, and real-time behavioral clustering.</i></p>
+  <img src="./assets/experiment_dashboard.png" alt="Genesis Experiment Archive" width="95%" />
+  <p><i>Live Experiment Archive: Multi-agent evolutionary runs across millions of simulation ticks.</i></p>
 </div>
-
----
-
-## Research Architecture
-
-The simulation engine follows a multi-tiered pipeline mapping genetic genotypes to neural controllers, sensory inputs, spatial physics, and survival feedback loops:
 
 <div align="center">
-  <img src="./assets/architecture_diagram.jpg" alt="Architecture Diagram" width="95%" />
+  <img src="./assets/observatory_telemetry.png" alt="Observatory Telemetry & Charts" width="95%" />
+  <p><i>Real-time Observatory: Population dynamics, metabolic efficiency, and behavioral divergence curves.</i></p>
 </div>
-
-### Core Subsystems:
-1. **Genotype Chromosome Mapping**: Multi-gene parameterization encoding sensory radii, metabolic baselines, velocity limits, mutation rates, and neural topology.
-2. **Neural Perception Layer**: Multi-modal sensory array processing visual proximity (food/predator rays), auditory pheromone signals, biomass gradients, and energy telemetry.
-3. **Spatial Physics Engine**: Continuous 2D/3D toroidal grid modeling biomass dispersion, obstacle collision, inertial mechanics, and dynamic climate shifts.
-4. **Natural Selection & Evolution**: Energy-gated reproduction, crossover, sexual selection, and stochastic point mutations driving macro-evolutionary speciation.
 
 ---
 
